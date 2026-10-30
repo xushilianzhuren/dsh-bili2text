@@ -1,0 +1,6 @@
+- insert:
+    - id: bili2text
+      name: 'dsh-bili2text'
+      config:
+        enabled: true
+        tool: true

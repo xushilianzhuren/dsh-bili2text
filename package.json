@@ -1,0 +1,36 @@
+{
+  "name": "dsh-bili2text",
+  "version": "1.1.0",
+  "private": false,
+  "type": "module",
+  "description": "B站视频转文字·全自动：字幕优先捷径+yt-dlp/whisper命令链+环境体检（v1.1真执行） Bilibili video-to-text, fully automated subtitle-shortcut.",
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent",
+    "workflow"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@antinomyhq/forge": "*"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Bili2Text",
+    "description": "B站视频转文字SOP：字幕优先捷径+yt-dlp/ffmpeg/whisper命令链+环境体检 Bilibili video-to-text SOP with command chains and env check."
+  }
+}
